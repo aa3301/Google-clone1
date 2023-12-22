@@ -1,0 +1,100 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .search-container {
+    text-align: center;
+  }
+  
+  .google-logo {
+    width: 15rem;
+    height: 5rem;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 600px;
+    max-width: 100%;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  }
+  @media only screen and (max-width: 700px) {
+    .search-bar {
+      width: 500px;
+    }
+  }
+  @media only screen and (max-width: 655px) {
+    .search-bar {
+      width: 400px;
+    }
+  }
+  @media only screen and (max-width: 440px) {
+    .search-bar {
+      width: 300px;
+    }
+  }
+  @media only screen and (max-width: 440px) {
+    .search-bar {
+      width: 250px;
+    }
+  }
+  @media only screen and (max-width: 457px) {
+    .google-logo {
+      width: 8rem;
+      height: 3rem;
+  }
+}
+@media only screen and (max-width: 270px) {
+  .google-logo {
+    width: 6.5rem;
+    height: 2.5rem;
+}
+.search-bar {
+  width: 170px;
+}
+}
+  .search-bar input {
+    border: none;
+    padding: 15px;
+    outline-width: 0;
+    width: 100%;
+  }
+  
+  .search-bar button {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .Nav{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+   
+  }
+  .p1{
+    &:hover{
+cursor: pointer;
+text-decoration: underline;
+    }
+  }
+  .p2{
+    &:hover{
+cursor: pointer;
+text-decoration: underline;
+    }
+  }
+  .Nav1{
+    display: flex;
+   gap: 1rem;
+   margin-right:2rem ;
+
+  }
